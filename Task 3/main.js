@@ -16,6 +16,8 @@ function calc(event){
         display.value = ''
     }else if(clicked === "DE"){
         display.value = display.value.slice(0,display.value.length-1);
+    }else if(clicked === "%"){
+        display.value = eval(display.value)*(1/100);
     }else{ 
         display.value += clicked;
     }
