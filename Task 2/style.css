@@ -319,7 +319,16 @@ box-shadow:0 0 10px var(--sec-clr);
 .footer{
     text-align: center;
 }
+/*-----------------------------------------------------------scrollbar*/
 
-
-  
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--heading);
+    border-radius: 10px;
+}
   
