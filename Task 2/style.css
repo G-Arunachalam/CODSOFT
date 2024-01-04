@@ -189,8 +189,8 @@ nav ul li{
 .myimage img{
 border-radius: 50%;
 object-fit: cover;
-border: 7px solid var(--sec-clr);
-box-shadow:0 0 10px var(--sec-clr);
+border: 0px solid var(--sec-clr);
+box-shadow:0 0 15px var(--sec-clr);
 }
 /*-----------------------------------------------------------SECTION-3(Education)*/
 .no-head-full{
